@@ -1,5 +1,6 @@
 import mentorImg from '../assets/MovieApp.png';
 import menImg from '../assets/VitaminModule.png';
+import meImg from '../assets/AmazonDupe.png';
 export default function Projects() {
 return (
 <section className="projects">
@@ -14,6 +15,11 @@ return (
 <img src={menImg} alt="Web app to find a mentor" />
 <h3>Vitamin Module</h3>
 <p>React JS, JavaScript, UI/UX</p>
+</div>
+<div className="card">
+<img src={meImg} alt="Web app to find a mentor" />
+<h3>Amazon Dupe</h3>
+<p>HTML, CSS</p>
 </div>
 </div>
 </section>
